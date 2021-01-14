@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.*;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 interface IContactDetails{
    public void addDetails(  String firstName,  String LastName,  String address,  String city ,  String state,  int zip,  int phoneNumber1,  int phoneNumber2 ,  String email );
@@ -95,7 +94,6 @@ public class AddressBookSystemUC4 implements IContactDetails {
 
 
    public static void main(String[] args){
-      Scanner scn=new Scanner(System.in);
 
       AddressBookSystemUC4 contct = new  AddressBookSystemUC4() ;
          contct.addDetails( "Himshu", " Nete " ,  " ldikr lyout ",  " Pune ",  " Maharashtra ", 440024,  88059, 56103, " himanshuneteh@gmail.com ");
